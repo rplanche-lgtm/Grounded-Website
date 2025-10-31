@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounded Consulting | Indigenous Conservation Planning, Negotiations & Assessment</title>
+    <meta name="description" content="Grounded Consulting provides Indigenous-led conservation services including planning, negotiations, and environmental assessment consulting for sustainable land management.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1a365d",
+                        secondary: "#2d3748",
+                        accent: "#c53030",
+                        earth: "#744210",
+                        forest: "#22543d",
+                        sage: "#4a7c59"
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'serif': ['Georgia', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    </style>
+</head>
+<body class="min-h-screen bg-white font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-sage rounded-full flex items-center justify-center">
+                        <i class="fas fa-mountain text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="text-2xl font-bold text-primary">Grounded</span>
+                        <span class="text-2xl font-light text-forest">Consulting</span>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-secondary hover:text-sage font-medium transition-colors">Home</a>
+                    <a href="#services" class="text-secondary hover:text-sage font-medium transition-colors">Services</a>
+                    <a href="#approach" class="text-secondary hover:text-sage font-medium transition-colors">Our Approach</a>
+                    <a href="#team" class="text-secondary hover:text-sage font-medium transition-colors">Our Team</a>
+                    <a href="#contact" class="text-secondary hover:text-sage font-medium transition-colors">Contact</a>
+                </div>
+                
+                <button class="md:hidden text-primary">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-br from-sage to-forest text-white py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Grounded in Tradition, Growing with Purpose</h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-90">Indigenous-led conservation consulting that honors the land while building sustainable futures.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-accent hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">Explore Our Services</button>
+                    <button class="bg-white hover:bg-gray-100 text-primary px-8 py-3 rounded-lg font-semibold transition-colors">Meet Our Team</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Our Conservation Services</h2>
+                <p class="text-xl text-secondary max-w-2xl mx-auto">Comprehensive Indigenous-led consulting services for land stewardship and community empowerment.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-map-marked-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-primary mb-4">Conservation Planning</h3>
+                    <p class="text-secondary mb-4">Strategic land use planning that weaves traditional ecological knowledge with contemporary conservation science.</p>
+                    <ul class="space-y-2 text-secondary">
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Protected area design & management</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Habitat restoration strategies</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Cultural landscape preservation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Climate resilience planning</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-forest rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-handshake text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-primary mb-4">Negotiations & Partnerships</h3>
+                    <p class="text-secondary mb-4">Building bridges between Indigenous communities, government agencies, and industry stakeholders.</p>
+                    <ul class="space-y-2 text-secondary">
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Treaty rights consultation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Resource sharing agreements</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Co-management frameworks</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Stakeholder engagement</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <div class="w-16 h-16 bg-earth rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-clipboard-check text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-primary mb-4">Environmental Assessment</h3>
+                    <p class="text-secondary mb-4">Comprehensive impact assessments that center Indigenous rights and traditional land use.</p>
+                    <ul class="space-y-2 text-secondary">
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Cultural heritage assessment</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Traditional knowledge integration</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Mitigation strategy development</li>
+                        <li class="flex items-center"><i class="fas fa-check text-sage mr-2"></i>Regulatory compliance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section id="approach" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img 
+                        src="https://picsum.photos/600/400?random=5" 
+                        alt="Grounded Consulting team discussing conservation approach" 
+                        class="rounded-lg shadow-lg w-full"
+                        loading="lazy"
+                    />
+                    <div class="absolute -bottom-6 -right-6 bg-sage text-white p-6 rounded-lg shadow-lg max-w-xs">
+                        <div class="text-xl font-bold">"We walk gently on the land, listening to its stories."</div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">The Grounded Approach</h2>
+                    <p class="text-lg text-secondary mb-6">Our methodology is rooted in respect for Indigenous sovereignty, traditional knowledge, and the interconnectedness of all living things.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-sage rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fas fa-ears text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-primary mb-2">Community-Led Process</h3>
+                                <p class="text-secondary">We center community voices and ensure Indigenous leadership guides every project from conception to completion.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-forest rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fas fa-seedling text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-primary mb-2">Seven Generations Thinking</h3>
+                                <p class="text-secondary">Our planning considers impacts seven generations forward, ensuring sustainable outcomes for future descendants.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-earth rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fas fa-balance-scale text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-primary mb-2">Two-Eyed Seeing</h3>
+                                <p class="text-secondary">We integrate Indigenous knowledge with Western science to create holistic, evidence-based solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Our Grounded Team</h2>
+                <p class="text-xl text-secondary max-w-2xl mx-auto">Experienced professionals who bridge traditional wisdom with contemporary conservation expertise.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img 
+                        src="https://picsum.photos/400/300?random=6" 
+                        alt="Sarah Little Bear - Senior Conservation Planner" 
+                        class="w-full h-64 object-cover"
+                        loading="lazy"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-primary mb-1">Sarah Little Bear</h3>
+                        <p class="text-sage font-medium mb-4">Senior Conservation Planner</p>
+                        <p class="text-secondary text-sm">Anishinaabe knowledge keeper with 15+ years in land stewardship and traditional ecological knowledge.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img 
+                        src="https://picsum.photos/400/300?random=7" 
+                        alt="Michael Red Cloud - Negotiations Specialist" 
+                        class="w-full h-64 object-cover"
+                        loading="lazy"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-primary mb-1">Michael Red Cloud</h3>
+                        <p class="text-sage font-medium mb-4">Negotiations Specialist</p>
+                        <p class="text-secondary text-sm">Cree lawyer and mediator specializing in Indigenous rights, treaty negotiations, and partnership building.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img 
+                        src="https://picsum.photos/400/300?random=8" 
+                        alt="Dr. Elena Waters - Environmental Assessment Lead" 
+                        class="w-full h-64 object-cover"
+                        loading="lazy"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-primary mb-1">Dr. Elena Waters</h3>
+                        <p class="text-sage font-medium mb-4">Environmental Assessment Lead</p>
+                        <p class="text-secondary text-sm">Metis environmental scientist with expertise in integrating traditional knowledge into impact assessments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">Get Grounded with Us</h2>
+                    <p class="text-xl text-secondary">Ready to begin your conservation journey? Let's discuss how we can support your community's vision.</p>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <form class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-secondary mb-2">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent" placeholder="Your name">
+                        </div>
+                        <div>
+                            <label for="community" class="block text-sm font-medium text-secondary mb-2">Community/Organization</label>
+                            <input type="text" id="community" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent" placeholder="Your community or organization">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-secondary mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent" placeholder="your.email@example.com">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-secondary mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent" placeholder="Your phone number">
+                        </div>
+                        <div class="md:col-span-2">
+                            <label for="service" class="block text-sm font-medium text-secondary mb-2">Service Interest</label>
+                            <select id="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent">
+                                <option value="">Select a service</option>
+                                <option value="planning">Conservation Planning</option>
+                                <option value="negotiations">Negotiations & Partnerships</option>
+                                <option value="assessment">Environmental Assessment</option>
+                                <option value="other">Other Consultation</option>
+                            </select>
+                        </div>
+                        <div class="md:col-span-2">
+                            <label for="message" class="block text-sm font-medium text-secondary mb-2">Project Details</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent" placeholder="Tell us about your conservation needs and goals..."></textarea>
+                        </div>
+                        <div class="md:col-span-2">
+                            <button type="submit" class="w-full bg-sage hover:bg-forest text-white py-3 px-6 rounded-lg font-semibold transition-colors">Connect with Grounded Consulting</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 bg-sage rounded-full flex items-center justify-center">
+                            <i class="fas fa-mountain text-white"></i>
+                        </div>
+                        <div>
+                            <span class="text-xl font-bold">Grounded</span>
+                            <span class="text-xl font-light">Consulting</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-300">Building conservation solutions rooted in Indigenous wisdom and grounded in respect for the land.</p>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Services</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#services" class="hover:text-white transition-colors">Conservation Planning</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Negotiations</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Environmental Assessment</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Community Engagement</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3"></i>
+                            <span>456 Traditional Way<br>Conservation District</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3"></i>
+                            <span>(555) 123-GROUND</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>hello@groundedconsulting.ca</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Stay Connected</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-opacity-20 transition-colors">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-opacity-20 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-opacity-20 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400 text-sm">Subscribe to our newsletter for conservation insights</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Grounded Consulting. All rights reserved. We acknowledge that we work on traditional Indigenous territories across Turtle Island.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('a[href^="#"]');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Mobile menu toggle
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const navMenu = document.querySelector('.hidden.md\\:flex');
+            
+            if (mobileMenuButton) {
+                mobileMenuButton.addEventListener('click', function() {
+                    navMenu.classList.toggle('hidden');
+                    navMenu.classList.toggle('absolute');
+                    navMenu.classList.toggle('top-full');
+                    navMenu.classList.toggle('left-0');
+                    navMenu.classList.toggle('w-full');
+                    navMenu.classList.toggle('bg-white');
+                    navMenu.classList.toggle('shadow-lg');
+                    navMenu.classList.toggle('flex-col');
+                    navMenu.classList.toggle('p-4');
+                    navMenu.classList.toggle('space-y-4');
+                });
+            }
+            
+            // Form submission handling
+            const contactForm = document.querySelector('form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert("Thank you for reaching out to Grounded Consulting! We'll connect with you soon to discuss your conservation needs.");
+                    this.reset();
+                });
+            }
+            
+            // Service selection highlighting
+            const serviceSelect = document.getElementById('service');
+            if (serviceSelect) {
+                serviceSelect.addEventListener('change', function() {
+                    this.classList.remove('border-gray-300');
+                    this.classList.add('border-sage');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
